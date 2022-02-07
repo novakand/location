@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&family=Source+Sans+Pro:wght@700&display=swap" rel="stylesheet">
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVatgG_Di0Y8-yNMFDvczuyAGzIMcN0RU"></script>
 </head>
 
 <body>
@@ -383,6 +384,7 @@
                 </div>
             </aside>
             <main class="main">
+                <my-cat my-name="Hi" prop2="7"></my-cat>
                 <div class="main-header">
                     <div class="main-header__left">
                         <ul class="trigger-list">
@@ -514,7 +516,7 @@
                         </div>
                     </div>
                     <div class="main-body__item main-body__item_active" data-item="#map">
-                        <div class="map" style="background: url('static/images/hYVaAySQ1W7FU4KUuNZAY8nHrK0GqvAgW0wDTHloZ4A 1.png'); background-size: cover;">
+                        <div class="map" id="map" style="background: url('static/images/hYVaAySQ1W7FU4KUuNZAY8nHrK0GqvAgW0wDTHloZ4A 1.png'); background-size: cover;">
                             <div class="pin" style="position: absolute; left: 20%; top: 20%;">
                                 <div class="pin-data">
                                     <div class="pin-data__line">0.367 kg per day</div>
@@ -595,6 +597,7 @@
             </main>
         </div>
     </div>
+
     <div class="preloader">
         <ul class="preloader__dots">
             <li class="preloader__dots-item"></li>
@@ -603,6 +606,8 @@
             <li class="preloader__dots-item"></li>
         </ul>
     </div>
+    <script src="https://github.com/novakand/locations/blob/master/src/assets/js/main.js"></script>
+
 </body>
 
 </html>
