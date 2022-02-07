@@ -1,7 +1,7 @@
 # location
 ## Playing with Locations
 
-[Play with Locations on Stackblitz](https://stackblitz.com/edit/github-s68byw)
+[Play with Locations on Stackblitz](https://stackblitz.com/github/novakand/locations)
 
 ## Start
 
